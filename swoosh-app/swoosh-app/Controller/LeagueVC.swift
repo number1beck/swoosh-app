@@ -45,5 +45,8 @@ class LeagueVC: UIViewController {
             skillVC.player = player
         }
     }
-
+    @IBAction func unwindToLeagueVC(unwindSegue: UIStoryboardSegue) {
+        
+    }
+    
 }

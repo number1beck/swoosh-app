@@ -305,8 +305,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <action selector="unwindFromBigineerBaller:" destination="KnH-MN-lhA" eventType="touchUpInside" id="Nyk-zd-cGN"/>
-                                    <action selector="unwindFromSkillVC:" destination="KnH-MN-lhA" eventType="touchUpInside" id="nfB-05-FCh"/>
+                                    <segue destination="T0w-tJ-wE6" kind="unwind" unwindAction="unwindToLeagueVCWithUnwindSegue:" id="fdD-M5-NRn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -336,6 +335,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DkI-yx-JFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="T0w-tJ-wE6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1448" y="98"/>
         </scene>
@@ -351,27 +351,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ey5-yB-wWa">
-                                <rect key="frame" x="0.0" y="20" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="20"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="f8w-KT-w0k">
                                         <rect key="frame" x="147.66666666666666" y="0.0" width="118.99999999999997" height="20"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-oN-Rdk">
-                                        <rect key="frame" x="118.66666666666669" y="70" width="177" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="bEM-LP-5vX"/>
-                                            <constraint firstAttribute="width" constant="177" id="zn5-u7-MQv"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="24"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY BALL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkS-p9-2VK">
-                                <rect key="frame" x="57" y="380" width="300.33333333333331" height="82"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="START BALLIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkS-p9-2VK">
+                                <rect key="frame" x="8" y="380" width="398" height="82"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="60"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="0.62187710564107346" blue="0.28634669616323261" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWx-Vw-xxB">
@@ -381,6 +371,9 @@
                                     <constraint firstAttribute="height" constant="35" id="f7U-fS-xw7"/>
                                 </constraints>
                                 <state key="normal" image="backButton"/>
+                                <connections>
+                                    <segue destination="TYy-87-uzP" kind="unwind" unwindAction="unwindFromPlayBallVCWithUnwindSegue:" id="uJr-7M-Zbk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MfK-j2-6Ku"/>
@@ -402,6 +395,7 @@
                     <navigationItem key="navigationItem" id="rFt-cs-6gw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffy-rw-Do8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="TYy-87-uzP" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2295.6521739130435" y="97.767857142857139"/>
         </scene>
