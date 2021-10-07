@@ -18,6 +18,8 @@
 		8C81DFB72707FBF600B00403 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81DFB62707FBF600B00403 /* BorderButton.swift */; };
 		8C81DFBB270E319C00B00403 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81DFBA270E319C00B00403 /* LeagueVC.swift */; };
 		8C81DFBD270E31AE00B00403 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81DFBC270E31AE00B00403 /* SkillVC.swift */; };
+		8C81DFBF270E964B00B00403 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81DFBE270E964B00B00403 /* Player.swift */; };
+		8C81DFC3270EA15B00B00403 /* PlayBallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81DFC2270EA15A00B00403 /* PlayBallVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		8C81DFB62707FBF600B00403 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		8C81DFBA270E319C00B00403 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		8C81DFBC270E31AE00B00403 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		8C81DFBE270E964B00B00403 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8C81DFC2270EA15A00B00403 /* PlayBallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBallVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 				8C81DF892706A0B300B00403 /* ViewController.swift */,
 				8C81DFBA270E319C00B00403 /* LeagueVC.swift */,
 				8C81DFBC270E31AE00B00403 /* SkillVC.swift */,
+				8C81DFC2270EA15A00B00403 /* PlayBallVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		8C81DFB9270E2E6C00B00403 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8C81DFBE270E964B00B00403 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +301,8 @@
 				8C81DF8A2706A0B300B00403 /* ViewController.swift in Sources */,
 				8C81DF862706A0B300B00403 /* AppDelegate.swift in Sources */,
 				8C81DF882706A0B300B00403 /* SceneDelegate.swift in Sources */,
+				8C81DFBF270E964B00B00403 /* Player.swift in Sources */,
+				8C81DFC3270EA15B00B00403 /* PlayBallVC.swift in Sources */,
 				8C81DFBD270E31AE00B00403 /* SkillVC.swift in Sources */,
 				8C81DFB72707FBF600B00403 /* BorderButton.swift in Sources */,
 			);
